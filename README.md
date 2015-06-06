@@ -10,6 +10,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [System preferences](#system-preferences)
 - [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
+- [tmux](#tmux)
 - [Homebrew](#homebrew)
 - [Consolas](#consolas)
 - [Beautiful terminal](#beautiful-terminal)
@@ -67,6 +68,18 @@ Let's just quickly change some preferences. In **iTerm > Preferences...**, under
 In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
+
+## tmux
+
+Tmux is a terminal multiplexer. Terminal multiplexers lets you easily switch between several programs in one terminal, which makes them the perfect tool for moving from one workspace to another.
+
+After using tmux for over a year, I can’t imagine life without it. After memorizing a few keystrokes, it’s extremely easy to switch between projects.
+
+The website Giant Robots Smashing Into Other Giant Robots has a great crash course on tmux. It’s definitely worth a read!
+
+Tmux can be installed with HomeBrew using `brew install tmux`.
+
+
 
 ## Homebrew
 
