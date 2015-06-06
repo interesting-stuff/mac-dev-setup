@@ -10,8 +10,10 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [System preferences](#system-preferences)
 - [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
+- [oh-my-zsh](#oh-my-zsh)
 - [tmux](#tmux)
 - [Homebrew](#homebrew)
+- [wget](#wget)
 - [Consolas](#consolas)
 - [Beautiful terminal](#beautiful-terminal)
 - [iTerm2](#iterm2)
@@ -68,6 +70,30 @@ Let's just quickly change some preferences. In **iTerm > Preferences...**, under
 In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
+
+## oh-my-zsh
+
+ZShell (Zsh) is a shell designed for interactive use, and can be used as a powerful command interpreter for shell scripting.
+
+There are very few differences between Bash, the default shell for Mac OS X, and Zsh for the average user. I chose to switch to Zsh because it has some fantastic community-driven frameworks available.
+
+Here are some of the advantages of Zsh when compared to Bash:
+
+- **Better completion handling**. Not only are completions command-specific, Zsh also adds the ability to navigate the completion list by hitting `<Tab>`.
+- **Spelling correction**. If you spell something wrong, Zsh can sometimes suggest a correction and re-run the command for you.
+- **Right-hand prompts**. Zsh gives you the ability to add supplementary information to the right side of your prompt. I use this to display git information, but I’ve seen others use it for battery indicators.
+
+### install
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either curl or wget.
+
+####via curl
+
+`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
+
+####via wget
+
+`wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
 
 ## tmux
 
@@ -138,6 +164,10 @@ Homebrew keeps older versions of packages installed, in case you want to roll ba
 To see what you have installed (with their version numbers):
 
     $ brew list --versions
+
+## wget
+
+`brew install wget'
 
 ## Consolas
 
