@@ -327,6 +327,11 @@ Now I can open a file with `$ subl myfile.py` or start a new project in the curr
 
 Sublime Text is very extensible. For now we'll leave it like that, we already have a solid installation. To add more in the future, a good place to start would be to install the [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation).
 
+
+*roy-sublime-plugins:
+
+Find more information about what plugins to be installed at sublime text3 at https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings
+
 ## Vim
 
 Although Sublime Text will be our main editor, it is a good idea to learn some very basic usage of [Vim](http://www.vim.org/). It is a very popular text editor inside the terminal, and is usually pre-installed on any Unix system.
